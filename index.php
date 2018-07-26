@@ -31,10 +31,10 @@
 </div>
 <div class="w3-row">
 <div class="w3-half w3-container">
-  <img src="images/house1.jpg" style="width:100%">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/house1.jpg" style="width:100%">
 </div>
 <div class="w3-half w3-container">
-  <img src="images/house_arch.jpg" style="width:100%">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/house_arch.jpg" style="width:100%">
   <p class="w3-xlarge w3-text-grey">
   Demos, Logos, Reports, Names, Events, Media, Wordpress, Google, Books, Optimisations</p>
 </div>
